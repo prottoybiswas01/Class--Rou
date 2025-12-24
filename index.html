@@ -83,9 +83,9 @@
             </div>
             <div class="hidden md:flex space-x-6">
                 <a href="#" onclick="navigateTo('home')" class="hover:text-green-600 font-medium transition">Home</a>
-                <a href="#" class="hover:text-green-600 font-medium transition">About</a>
-                <a href="#" class="hover:text-green-600 font-medium transition">Notices</a>
-                <a href="#" class="hover:text-green-600 font-medium transition">Contact</a>
+                <a href="https://mangrove.edu.bd/" class="hover:text-green-600 font-medium transition">About</a>
+                <a href="https://mangrove.edu.bd/notice" class="hover:text-green-600 font-medium transition">Notices</a>
+                <a href="https://mangrove.edu.bd/contact/directory" class="hover:text-green-600 font-medium transition">Contact</a>
             </div>
             <button class="md:hidden text-gray-600 focus:outline-none">
                 <i class="fas fa-bars text-2xl"></i>
@@ -342,7 +342,7 @@
             const days = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday'];
             
             days.forEach((day, index) => {
-                const isOffDay = day === 'Friday'; // Just in case we add Friday later
+                const isOffDay = day === 'Friday' // Just in case we add Friday later
                 
                 // Create random subjects/teachers for demo
                 const sub1 = getRandomSubject(dept);
